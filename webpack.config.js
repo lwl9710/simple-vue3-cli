@@ -14,7 +14,7 @@ module.exports = function(env) {
     devtool: mode === "development" ? "source-map" : false,
     resolve: {
       alias: {
-        "@": "./src"
+        "@": path.resolve(__dirname, "src")
       }
     },
     devServer: {
