@@ -1,0 +1,10 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/db13ib1ocqrdb13ib1ocqr.jpg") no-repeat center /cover;
+}
